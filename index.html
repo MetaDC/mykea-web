@@ -1,0 +1,3203 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <!-- Mirrored from html.awaikenthemes.com/inspaire/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 27 Mar 2025 02:51:05 GMT -->
+  <head>
+      
+      <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11540740935"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-11540740935');
+</script>
+
+
+
+
+      
+    <!-- Meta -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1"
+    />
+    <meta
+      name="description"
+      content="Tailored Interior Design Solutions for Dubai Homes & Businesses"
+    />
+    <meta
+      property="og:image"
+      content="https://mykea-1.netlify.app/images/post-1.jpg"
+    />
+    <meta
+      property="og:title"
+      content="Mykea - Interior Design & Execution | Dubai"
+    />
+    <meta
+      property="og:description"
+      content="Tailored Interior Design Solutions for Dubai Homes & Businesses"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://mykea-1.netlify.app/" />
+
+    <meta name="keywords" content="mykea" />
+    <meta name="author" content="Awaiken" />
+    <!-- Page Title -->
+    <title>Mykea - Interior Design & Execution | Dubai</title>
+
+    <meta property="og:image" content="images/loader.png" />
+    <!-- Favicon Icon -->
+    <link rel="shortcut icon" type="image/x-icon" href="images/loader.png" />
+    <!-- Google Fonts Css-->
+    <link rel="preconnect" href="https://fonts.googleapis.com/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&amp;display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap Css -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen" />
+    <!-- SlickNav Css -->
+    <link href="css/slicknav.min.css" rel="stylesheet" />
+    <!-- Swiper Css -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <!-- Font Awesome Icon Css-->
+    <link href="css/all.min.css" rel="stylesheet" media="screen" />
+    <!-- Animated Css -->
+    <link href="css/animate.css" rel="stylesheet" />
+    <!-- Magnific Popup Core Css File -->
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+    <!-- Mouse Cursor Css File -->
+    <link rel="stylesheet" href="css/mousecursor.css" />
+    <!-- Main Custom Css -->
+    <link href="css/custom.css" rel="stylesheet" media="screen" />
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.19/css/intlTelInput.css"
+    />
+
+    <style>
+      html {
+        scroll-behavior: smooth;
+        scroll-padding-top: 80px;
+      }
+      /* Base Styles */
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+
+      /* Sidebar - mobile only */
+      .sidebar {
+        position: fixed;
+        top: 0;
+        right: -250px; /* Hidden off-screen initially */
+        width: 250px;
+        height: 100vh;
+        background-color: #7c877f;
+        overflow-x: hidden;
+        padding-top: 70px;
+        transition: right 0.3s ease;
+        z-index: 1000;
+        display: block;
+      }
+
+      .sidebar a {
+        padding: 15px 25px;
+        text-decoration: none;
+        font-size: 18px;
+        color: white;
+        display: block;
+        transition: background-color 0.2s;
+      }
+
+      .sidebar a:hover {
+        background-color: #575757;
+      }
+
+      /* Sidebar active (slide in) */
+      .sidebar.active {
+        right: 0;
+      }
+
+      /* Overlay - mobile only */
+      .overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 999;
+        display: none;
+      }
+
+      .overlay.active {
+        display: block;
+      }
+
+      /* Toggle button (top-right on mobile) */
+      .open-btn {
+        font-size: 30px;
+        cursor: pointer;
+        padding: 10px 7px;
+        background-color: transparent;
+        color: white;
+        border: none;
+        /* position: fixed; */
+        top: 15px;
+        right: 15px;
+        z-index: 1100;
+      }
+
+      /* Hide everything on desktop */
+      @media (min-width: 768px) {
+        .sidebar,
+        .open-btn,
+        .overlay {
+          display: none !important;
+        }
+
+        body {
+          margin-right: 0; /* No sidebar on desktop */
+        }
+      }
+
+      .popup-form {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100vw;
+        background-color: rgba(0, 0, 0, 0.5);
+        /* dim background */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1000;
+      }
+
+      /* Hidden by default */
+      .popup-form.hidden {
+        display: none;
+      }
+
+      /* Actual popup box */
+      .popup-content {
+        background-color: #fff;
+        border-radius: 12px;
+        padding: 24px;
+        width: 90%;
+        max-width: 450px;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+        position: relative;
+        animation: fadeIn 0.3s ease;
+      }
+
+      /* Close button */
+      #closeBtn {
+        position: absolute;
+        top: 10px;
+        right: 15px;
+        font-size: 30px;
+        cursor: pointer;
+        color: #444;
+      }
+
+      /* Input fields */
+      .popup-content input {
+        width: 100%;
+        padding: 10px 12px;
+        margin-bottom: 12px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        font-size: 14px;
+      }
+
+      .popup-content button[type="submit"] {
+        width: 100%;
+        background: black;
+        color: white;
+        border: 1px solid black;
+        padding: 10px;
+        border-radius: 20px;
+        cursor: pointer;
+        transition: background 0.3s ease, color 0.3s ease;
+      }
+
+      .popup-content button[type="submit"]:hover {
+        background: white;
+        color: black;
+      }
+
+      /* Fade-in animation */
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: scale(0.95);
+        }
+
+        to {
+          opacity: 1;
+          transform: scale(1);
+        }
+      }
+
+      .popup-form-2 {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100vw;
+        background-color: rgba(0, 0, 0, 0.5);
+        /* dim background */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1000;
+      }
+
+      /* Hidden by default */
+      .popup-form-2.hidden {
+        display: none;
+      }
+
+      /* Actual popup box */
+      .popup-content-2 {
+        background-color: #fff;
+        border-radius: 12px;
+        padding: 24px;
+        width: 90%;
+        max-width: 450px;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+        position: relative;
+        animation: fadeIn 0.3s ease;
+      }
+
+      /* Close button */
+      #closeBtn2 {
+        position: absolute;
+        top: 10px;
+        right: 15px;
+        font-size: 30px;
+        cursor: pointer;
+        color: #444;
+      }
+
+      /* Input fields */
+      .popup-content-2 input {
+        width: 100%;
+        padding: 10px 12px;
+        margin-bottom: 12px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        font-size: 14px;
+      }
+
+      .popup-content-2 button[type="submit"] {
+        width: 100%;
+        background: black;
+        color: white;
+        border: 1px solid black;
+        padding: 10px;
+        border-radius: 20px;
+        cursor: pointer;
+        transition: background 0.3s ease, color 0.3s ease;
+      }
+
+      .popup-content-2 button[type="submit"]:hover {
+        background: white;
+        color: black;
+      }
+
+      /* Fade-in animation */
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: scale(0.95);
+        }
+
+        to {
+          opacity: 1;
+          transform: scale(1);
+        }
+      }
+      .header-bg {
+        background-color: #192324;
+        transition: background-color 0.3s ease;
+      }
+
+      .loader-2 {
+        border: 3px solid #f3f3f3;
+        /* Light grey */
+        border-top: 3px solid #000000;
+        /* Blue */
+        border-radius: 50%;
+        width: 16px;
+        height: 16px;
+        animation: spin 1s linear infinite;
+        display: inline-block;
+        margin-left: 8px;
+        vertical-align: middle;
+      }
+
+      body.modal-open {
+        position: fixed !important;
+        overflow: hidden !important;
+        width: 100%;
+        top: 0;
+        left: 0;
+      }
+
+      .loader {
+        border: 3px solid #f3f3f3;
+        /* Light grey */
+        border-top: 3px solid #000000;
+        /* Blue */
+        border-radius: 50%;
+        width: 16px;
+        height: 16px;
+        animation: spin 1s linear infinite;
+        display: inline-block;
+        margin-left: 8px;
+        vertical-align: middle;
+      }
+
+      .hidden {
+        display: none !important;
+      }
+
+      .modal-open {
+        overflow: hidden;
+      }
+
+      /* modal css ends */
+
+      .social-area h3 {
+        color: #fff;
+      }
+
+      .social-wrapper {
+        border-top: 1px solid #fff;
+        padding-top: 30px;
+        margin: 0 10px;
+      }
+
+      .social-wrapper a {
+        color: #fff;
+        line-height: 30px;
+      }
+
+      .platform {
+        margin-bottom: 10px;
+      }
+
+      .row.area-inner {
+        margin-bottom: 100px;
+      }
+
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+
+      @media (max-width: 768px) {
+        .footer-area-4 .footer-nav-list {
+          gap: 0;
+        }
+
+        .row.align-items-center.text-white {
+          gap: 30px;
+        }
+
+        .social-wrapper {
+          border-top: none;
+        }
+      }
+      .how-we-work-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px; /* space between items */
+        padding: 40px 20px; /* responsive padding */
+        margin: 0 auto;
+        max-width: 1200px;
+      }
+
+      .how-we-work-item {
+        background: #ffffff24;
+        /* border-radius: 8px; */
+        width: 300px;
+        /* responsive width */
+        padding: 20px;
+        /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); */
+        text-align: center;
+      }
+
+      .icon-box img {
+        width: 60px;
+        height: auto;
+        margin-bottom: 15px;
+      }
+
+      .how-we-work-content h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+
+      .how-we-work-content p {
+        font-size: 14px;
+        color: #bababa;
+      }
+      @media (max-width: 768px) {
+        .how-we-work-item {
+          width: 100%;
+          max-width: 90%;
+        }
+      }
+
+      /* Popup styling */
+
+      /* Popup styling */
+      .popup {
+        display: none;
+        position: fixed;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: white;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        z-index: 1000;
+        width: 400px;
+        border-radius: 8px;
+        margin-top: 150px;
+      }
+
+      .popup.active {
+        display: block;
+      }
+
+      .popup-overlay {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 999;
+      }
+
+      .popup-overlay.active {
+        display: block;
+      }
+
+      .popup-close {
+        position: absolute;
+        top: 10px;
+        right: 15px;
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+        color: black;
+      }
+
+      h2 {
+        margin-top: 0;
+      }
+      @media (max-width: 480px) {
+        .popup {
+          padding: 15px;
+          margin-top: 141px;
+          width: 300px;
+        }
+
+        .popup-close {
+          font-size: 22px;
+          top: 8px;
+          right: 10px;
+        }
+
+        h2 {
+          font-size: 1.2rem;
+        }
+      }
+      .video-section {
+        padding-bottom: 100px;
+      }
+
+      .video-section-content {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px;
+        padding: 20px;
+      }
+
+      .video-section-content iframe {
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        /* Fix ratio to match video dimensions */
+        border: none;
+      }
+
+      .swiper-container {
+        display: none;
+        /* Hide Swiper on desktop */
+      }
+
+      @media (max-width: 768px) {
+        .video-section-content {
+          display: block;
+          /* Show Swiper on mobile */
+          width: 100%;
+          /* Hide grid-based content */
+        }
+
+        .swiper-container {
+          display: none;
+          /* Hide Swiper on desktop */
+        }
+
+        .splide__track {
+          padding-top: 80px;
+        }
+      }
+      /* .sub-footer */
+
+      .cta-section {
+        background-color: #fff;
+        padding: 60px 20px;
+        text-align: center;
+      }
+
+      .cta-container {
+        max-width: 800px;
+        margin: 0 auto;
+      }
+
+      .cta-container h2 {
+        font-size: 32px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: #0a0a23;
+      }
+
+      .cta-container p {
+        color: #555;
+        font-size: 16px;
+        margin-bottom: 30px;
+        line-height: 1.5;
+      }
+
+      .sub-form {
+        background-color: #283132;
+        padding: 30px;
+        /* border-radius: 12px; */
+      }
+
+      .input-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+        margin-bottom: 20px;
+      }
+
+      .input-group {
+        flex: 1 1 300px;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+      }
+
+      .input-group label {
+        color: #fff;
+        margin-bottom: 6px;
+        font-size: 14px;
+      }
+
+      .input-group input {
+        padding: 12px;
+        font-size: 16px;
+        border-radius: 4px;
+        border: none;
+      }
+
+      .cta-button {
+        background-color: #7c877f;
+        color: #fff;
+        padding: 14px 20px;
+        font-size: 16px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        width: 100%;
+        max-width: 600px;
+        transition: background-color 0.3s ease;
+      }
+
+      .cta-button:hover {
+        background-color: white;
+        color: black;
+      }
+      @media (max-width: 768px) {
+        #countryCode2 {
+          width: 100%;
+        }
+      }
+      .phone-input-wrapper {
+        display: flex;
+        gap: 20px;
+        flex-wrap: nowrap;
+        width: 100%;
+      }
+
+      .phone-input-wrapper select,
+      .phone-input-wrapper input {
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+      }
+
+      .phone-input-wrapper select {
+        width: 110px;
+        background-color: white;
+        cursor: pointer;
+      }
+
+      .phone-input-wrapper input {
+        flex: 1;
+        min-width: 0;
+      }
+
+      /* ✅ Mobile fix */
+      @media (max-width: 600px) {
+        .phone-input-wrapper {
+          flex-direction: column;
+        }
+
+        .phone-input-wrapper select,
+        .phone-input-wrapper input {
+          width: 100%;
+        }
+      }
+      .swiper-button-next,
+      .swiper-button-prev {
+        color: #000;
+      }
+      .pen-icon {
+        font-size: 20px;
+        position: absolute;
+        top: 32px;
+        right: 60px;
+        z-index: 1000; /* One layer below the hamburger */
+        color: #ccc;
+        display: none; /* hidden on desktop */
+      }
+
+      /* Show only on mobile screens */
+      @media screen and (max-width: 768px) {
+        .pen-icon {
+          display: block;
+        }
+      }
+    </style>
+    <!-- In your <head> section -->
+    <!-- In <head> -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css"
+    />
+  </head>
+  <body>
+    <!-- Preloader Start -->
+    <div class="preloader">
+      <div class="loading-container">
+        <div class="loading"></div>
+        <div id="loading-icon">
+          <img src="images/loader-white-main.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- Preloader End -->
+
+    <!-- Header Start -->
+    <header
+      id="mainHeader"
+      class="main-header"
+      style="position: sticky; top: 0; overflow: hidden"
+    >
+      <div class="header-sticky">
+        <nav class="container" style="padding-right: 5px">
+          <div class="navbar navbar-expand-lg">
+            <!-- Logo Start -->
+            <a class="navbar-brand" href="">
+              <img
+                src="images/mykea-logo-1.png"
+                alt="Logo"
+                style="max-width: 53%"
+              />
+            </a>
+            <!-- Logo End -->
+
+            <!-- Main Menu Start -->
+            <div class="collapse navbar-collapse main-menu">
+              <div class="nav-menu-wrapper">
+                <ul class="navbar-nav mr-auto" id="menu">
+                  <li class="nav-item">
+                    <a class="nav-link" href="">Home</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#our_services">Services</a>
+                    <!-- <ul>
+                      <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home - Image</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="index-video.html"
+                          >Home - Video</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="index-slider.html"
+                          >Home - Slider</a
+                        >
+                      </li>
+                    </ul > -->
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                  </li>
+                  <!-- <li class="nav-item">
+                    <a class="nav-link" href="blog.html">Blog</a>
+                  </li> -->
+                  <!-- <li class="nav-item submenu">
+                    <a class="nav-link" href="#">Pages</a>
+                    <ul>
+                      <li class="nav-item">
+                        <a class="nav-link" href="service-single.html"
+                          >Service Details</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="project-single.html"
+                          >Project Details</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="blog-single.html"
+                          >Blog Details</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="image-gallery.html"
+                          >Image Gallery</a
+                        >
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="faqs.html">FAQs</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="404.html">404</a>
+                      </li>
+                    </ul>
+                  </li> -->
+                  <li class="nav-item">
+                    <a class="nav-link" href="#footer">Contact</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- Header Btn Start -->
+              <div class="header-btn d-inline-flex">
+                <a href="#" id="portfolioBtn" class="btn-default">Portfolio</a>
+              </div>
+              <!-- Header Btn End -->
+            </div>
+            <!-- Main Menu End -->
+            <!-- <div class="navbar-toggle"></div> -->
+
+            <div class="sidebar" id="sidebar">
+              <a href="">Home</a>
+              <a href="#about">About</a>
+              <a href="#our_services">Service</a>
+              <a href="#projects">Projects</a>
+              <a href="#footer">Contact Us</a>
+            </div>
+            <div class="pen-icon">
+              <a id="homeBtn">
+                <img
+                  src="./images/portfol.png"
+                  alt="Home"
+                  style="width: 30px; height: 30px; object-fit: contain"
+                />
+              </a>
+            </div>
+            <div class="overlay" id="overlay"></div>
+            <button class="open-btn" id="openSidebar">&#9776;</button>
+          </div>
+        </nav>
+        <div class="responsive-menu"></div>
+      </div>
+    </header>
+    <!-- Header End -->
+    <div
+      id="popupForm"
+      class="popup-form hidden"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="popup-content">
+        <span id="closeBtn">&times;</span>
+        <h4>Unlock Our Exclusive Portfolio!</h4>
+        <p style="margin: 20px 0">
+          Share your details to unlock our portfolio, it's completely free.
+        </p>
+        <form id="userForm">
+          <input type="text" placeholder="Your Name" required />
+
+          <div style="display: flex; gap: 10px">
+            <select
+              id="countryCode"
+              style="
+                padding: 10px 12px;
+                border: 1px solid #ccc;
+                border-radius: 8px;
+                display: inline-block;
+                font-size: 16px;
+                line-height: 1.4;
+                margin-bottom: 12px;
+                background-color: white;
+                cursor: pointer;
+              "
+              required
+            >
+              <option value="+91">🇮🇳 +91 (India)</option>
+              <option value="+1">🇺🇸 +1 (USA)</option>
+              <option value="+44">🇬🇧 +44 (UK)</option>
+              <option value="+971" selected>🇦🇪 +971 (UAE)</option>
+            </select>
+            <input
+              type="tel"
+              id="phoneNumber"
+              placeholder="Phone Number"
+              required
+            />
+          </div>
+
+          <input type="email" placeholder="Email ID" required />
+
+          <button type="submit" id="submitBtn">
+            <span class="btn-text">Download</span>
+            <span class="loader hidden"></span>
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <div
+      id="popupForm2"
+      class="popup-form-2 hidden"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="popup-content-2">
+        <span id="closeBtn2">&times;</span>
+        <h4>Get Instant Pricing – For Free!</h4>
+        <p style="margin: 20px 0">
+          Enter your details and get instant pricing, completely free.
+        </p>
+        <form id="userForm2">
+          <input type="text" placeholder="Your Full Name" required />
+
+          <div style="display: flex; gap: 20px">
+            <select
+              id="countryCode2"
+              style="
+                padding: 10px 12px;
+                border: 1px solid #ccc;
+                border-radius: 8px;
+                display: inline-block;
+                font-size: 16px;
+                line-height: 1.4;
+                margin-bottom: 12px;
+                background-color: white;
+                cursor: pointer;
+              "
+              required
+            >
+              <option value="+91" selected>🇮🇳 +91 (India)</option>
+              <option value="+1">🇺🇸 +1 (USA)</option>
+              <option value="+44">🇬🇧 +44 (UK)</option>
+              <option value="+971" selected>🇦🇪 +971 (UAE)</option>
+            </select>
+            <input
+              type="tel"
+              id="phoneNumber2"
+              placeholder="Phone Number"
+              required
+            />
+          </div>
+
+          <input type="email" placeholder="Your Email Address" required />
+
+          <button type="submit" id="submitBtn2">
+            <span class="btn-text-2">Get Quote</span>
+            <span class="loader-2 hidden"></span>
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Hero Section Start -->
+    <div class="hero parallaxie">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-10">
+            <!-- Hero Content Start -->
+            <div class="hero-content">
+              <!-- Section Title Start -->
+              <div class="section-title">
+                <h3 class="wow fadeInUp">MYKEA - Interior Projects</h3>
+                <h1 class="text-anime-style-2">
+                  Elevate Your Space with Dubai’s Finest!
+                </h1>
+                <p class="wow fadeInUp" data-wow-delay="0.2s">
+                  Tailored Interior Design Solutions for Dubai Homes &
+                  Businesses.
+                </p>
+              </div>
+              <!-- Section Title End -->
+
+              <!-- Hero Button Start -->
+              <div class="hero-btn wow fadeInUp" data-wow-delay="0.4s">
+                <a id="consultationBtn" class="btn-default">Get Free Quote</a>
+                <a href="#projects" class="btn-default btn-highlighted"
+                  >view projects</a
+                >
+              </div>
+              <!-- Hero Button End -->
+            </div>
+            <!-- Hero Content End -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Hero Section End -->
+
+    <!-- About Us Section Start -->
+    <div class="about-us" id="about">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <!-- About Us Images Start -->
+            <div class="about-us-images">
+              <!-- About Image 1 Start -->
+              <div class="about-img-1">
+                <figure>
+                  <img src="images/about-img-1.jpg" alt="" />
+                </figure>
+              </div>
+              <!-- About Image 1 End -->
+
+              <!-- About Image 2 Start -->
+              <div class="about-img-2">
+                <figure>
+                  <img src="images/about-img-2.jpg" alt="" />
+                </figure>
+
+                <!-- Feedback Counter Start -->
+                <div class="experience-counter">
+                  <h3><span class="counter">15</span>+</h3>
+                  <p>Years of experience</p>
+                </div>
+                <!-- Feedback Counter End -->
+              </div>
+              <!-- About Image 2 End -->
+
+              <!-- Feedback Counter Start -->
+              <div class="feedback-counter">
+                <p><span class="counter">95</span>%</p>
+                <h3>positive feedback</h3>
+              </div>
+              <!-- Feedback Counter End -->
+            </div>
+            <!-- About Us Images End -->
+          </div>
+
+          <div class="col-lg-6">
+            <!-- About Us Content Start -->
+            <div class="about-us-content">
+              <!-- Section Title Start -->
+              <div class="section-title">
+                <h3 class="wow fadeInUp">about us</h3>
+                <h2 class="text-anime-style-2">
+                  Mykea-Transforming Spaces <span>Across Dubai</span>
+                </h2>
+                <p class="wow fadeInUp" data-wow-delay="0.2s">
+                  We handle everything from design concepts and space planning
+                  to sourcing, styling, and final execution. Whether it’s a
+                  villa or an apartment, we make interiors:
+                </p>
+              </div>
+              <!-- Section Title End -->
+
+              <!-- About Us Content Body Start -->
+              <div class="about-us-content-body">
+                <!-- About Content Info Start -->
+                <div class="about-us-content-info">
+                  <!-- About Us Content List Start -->
+                  <div
+                    class="about-us-content-list wow fadeInUp"
+                    data-wow-delay="0.4s"
+                  >
+                    <ul>
+                      <li>Effortless</li>
+                      <li>Personalized</li>
+                      <li>Move-in ready</li>
+                    </ul>
+                  </div>
+                  <!-- About Us Content List End -->
+
+                  <!-- About Us Content Button Start -->
+                  <div
+                    class="about-us-content-btn wow fadeInUp"
+                    data-wow-delay="0.6s"
+                  >
+                    <a href="#our_services" class="btn-default">Explore</a>
+                  </div>
+                  <!-- About Us Content Button End -->
+                </div>
+                <!-- About Content Info End -->
+
+                <!-- About Content List Start -->
+                <div class="about-us-contact-list">
+                  <!-- About Contact Item Start -->
+                  <div
+                    class="about-contact-item wow fadeInUp"
+                    data-wow-delay="0.4s"
+                  >
+                    <div class="icon-box">
+                      <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <div class="about-contact-content">
+                      <p>need any help?</p>
+                      <h3>
+                        <a
+                          href="#footer"
+                          style="text-decoration: none; color: #7c877f"
+                          onmouseover="this.style.textDecoration='underline'; this.style.color='#283132'"
+                          onmouseout="this.style.textDecoration='none'; this.style.color='#7c877f'"
+                        >
+                          Contact us
+                        </a>
+                      </h3>
+                    </div>
+                  </div>
+                  <!-- About Contact Item End -->
+
+                  <!-- About Contact Item Start -->
+                  <!-- <div
+                    class="about-contact-item wow fadeInUp"
+                    data-wow-delay="0.6s"
+                  >
+                    <div class="icon-box">
+                      <figure class="image-anime">
+                        <img src="images/author-1.jpg" alt="" />
+                      </figure>
+                    </div>
+                    <div class="about-contact-content">
+                      <h3>leslie alexander</h3>
+                      <p>co founder</p>
+                    </div>
+                  </div> -->
+                  <!-- About Contact Item End -->
+                </div>
+                <!-- About Content Info End -->
+              </div>
+              <!-- About Us Content Body End -->
+            </div>
+            <!-- About Us Content End -->
+          </div>
+          <!-- <div id="our_services"></div> -->
+        </div>
+      </div>
+      <div></div>
+    </div>
+    <!-- About Us Section End -->
+
+    <!-- Why Choose Us Section Start -->
+    <!-- <div class="why-choose-us">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-5">
+          
+            <div class="why-choose-content">
+
+              <div class="section-title">
+                <h3 class="wow fadeInUp">why choose us</h3>
+                <h2 class="text-anime-style-2" data-cursor="-opaque">
+                  A behind the scenes look at <span>our agency</span>
+                </h2>
+                <p class="wow fadeInUp" data-wow-delay="0.2s">
+                  From concept to completion, discover how we bring your vision
+                  to life with innovation, collaboration, and expert
+                  craftsmanship.
+                </p>
+              </div>
+            
+
+           
+              <div class="why-choose-item-list">
+               
+                <div class="why-choose-item wow fadeInUp" data-wow-delay="0.4s">
+           
+                  <div class="icon-box">
+                    <img src="images/icon-why-choose-1.svg" alt="" />
+                  </div>
+                 
+
+                
+                  <div class="why-choose-item-content">
+                    <h3>tailored design solutions</h3>
+                    <p>
+                      We provide personalized interior design services that
+                      reflect your unique vision and lifestyle.
+                    </p>
+                  </div>
+   
+                </div>
+               
+                <div class="why-choose-item wow fadeInUp" data-wow-delay="0.6s">
+                 
+                  <div class="icon-box">
+                    <img src="images/icon-why-choose-2.svg" alt="" />
+                  </div>
+        
+
+             
+                  <div class="why-choose-item-content">
+                    <h3>Seamless Project Management</h3>
+                    <p>
+                      We handle the entire design process, from concept to
+                      completion, with flawless execution.
+                    </p>
+                  </div>
+           
+                </div>
+              
+                <div class="why-choose-item wow fadeInUp" data-wow-delay="0.8s">
+      
+                  <div class="icon-box">
+                    <img src="images/icon-why-choose-3.svg" alt="" />
+                  </div>
+  
+
+
+                  <div class="why-choose-item-content">
+                    <h3>Client-Centered Collaboration</h3>
+                    <p>
+                      Your input is valued throughout the entire process,
+                      ensuring your vision is fully realized.
+                    </p>
+                  </div>
+
+                </div>
+    
+              </div>
+     
+            </div>
+   
+          </div>
+
+          <div class="col-lg-7">
+
+            <div class="why-choose-images">
+      
+              <div class="why-choose-img-box-1">
+
+                <div class="why-choose-img-1">
+                  <figure class="image-anime reveal">
+                    <img src="images/why-choose-img-1.jpg" alt="" />
+                  </figure>
+                </div>
+              
+                <div class="why-choose-img-2">
+                  <figure class="image-anime reveal">
+                    <img src="images/why-choose-img-2.jpg" alt="" />
+                  </figure>
+                </div>
+         
+              </div>
+            
+              <div class="why-choose-img-box-2">
+              
+                <div class="why-choose-img-3">
+                  <figure class="image-anime reveal">
+                    <img src="images/why-choose-img-3.jpg" alt="" />
+                  </figure>
+                </div>
+              
+                <div class="why-choose-img-4">
+                  <figure class="image-anime reveal">
+                    <img src="images/why-choose-img-4.jpg" alt="" />
+                  </figure>
+                </div>
+
+              </div>
+ 
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <!-- Why Choose Us Section End -->
+
+    <!-- Our Services Section Start -->
+    <!-- <div class="our-services">
+      <div class="container">
+        <div class="row section-row align-items-center">
+          <div class="col-lg-6">
+            
+            <div class="section-title">
+              <h3 class="wow fadeInUp">our services</h3>
+              <h2 class="text-anime-style-2" data-cursor="-opaque">
+                Innovative design services for <span>every need</span>
+              </h2>
+            </div>
+          
+          </div>
+
+          <div class="col-lg-6">
+   
+            <div class="section-title-content">
+              <p class="wow fadeInUp" data-wow-delay="0.2s">
+                We offer a range of bespoke interior design services tailored to
+                your unique needs. From concept development to final
+                installation.
+              </p>
+            </div>
+  
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+           
+            <div class="service-item wow fadeInUp">
+              
+              <div class="service-image">
+                <a href="" data-cursor-text="View">
+                  <figure class="image-anime">
+                    <img src="images/service-1.jpg" alt="" />
+                  </figure>
+                </a>
+              </div>
+         
+              <div class="service-btn">
+                <a href=""><img src="images/arrow-white.svg" alt="" /></a>
+              </div>
+   
+              <div class="service-content">
+                <h3>
+                  <a href="">residential interior design</a>
+                </h3>
+                <p>
+                  We create personalized living spaces that reflect your style
+                  and functional needs.
+                </p>
+              </div>
+
+            </div>
+          
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+       
+            <div class="service-item wow fadeInUp" data-wow-delay="0.2s">
+              
+              <div class="service-image">
+                <a href="" data-cursor-text="View">
+                  <figure class="image-anime">
+                    <img src="images/service-2.jpg" alt="" />
+                  </figure>
+                </a>
+              </div>
+            
+              <div class="service-btn">
+                <a href=""><img src="images/arrow-white.svg" alt="" /></a>
+              </div>
+   
+              <div class="service-content">
+                <h3>
+                  <a href="">commercial interior design</a>
+                </h3>
+                <p>
+                  Enhancing business environments with professional, functional,
+                  and aesthetically.
+                </p>
+              </div>
+        
+            </div>
+
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+          
+            <div class="service-item wow fadeInUp" data-wow-delay="0.4s">
+         
+              <div class="service-image">
+                <a href="" data-cursor-text="View">
+                  <figure class="image-anime">
+                    <img src="images/service-3.jpg" alt="" />
+                  </figure>
+                </a>
+              </div>
+       
+              <div class="service-btn">
+                <a href=""><img src="images/arrow-white.svg" alt="" /></a>
+              </div>
+   
+              <div class="service-content">
+                <h3>
+                  <a href="">furniture and decor selection</a>
+                </h3>
+                <p>
+                  Our experts help you choose the perfect furniture and decor
+                  complement your style.
+                </p>
+              </div>
+
+            </div>
+         
+          </div>
+
+          <div class="col-lg-12">
+       
+            <div class="all-services-btn wow fadeInUp" data-wow-delay="0.6s">
+              <a href="" class="btn-default">see all services</a>
+            </div>
+  
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <!-- Our Services Section End -->
+
+    <!-- How We Work Start -->
+    <div class="how-we-work" id="our_services">
+      <div class="container">
+        <div class="row section-row align-items-center">
+          <div class="col-lg-6">
+            <div class="section-title dark-section">
+              <h3 class="wow fadeInUp">Our Services</h3>
+              <h2 class="text-anime-style-2" data-cursor="-opaque">
+                Innovative design services for <span>every need</span>
+              </h2>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="section-title-content dark-section">
+              <p class="wow fadeInUp" data-wow-delay="0.2s">
+                Our experts help you choose the perfect furniture and decor
+                complement your style.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-12">
+            <div class="how-we-work-list">
+              <div class="how-we-work-item wow fadeInUp">
+                <div class="icon-box">
+                  <img src="images/living-room.png" alt="" />
+                </div>
+                <div class="how-we-work-content">
+                  <h3>01. Interior Design & Visualization</h3>
+                  <p>
+                    We craft concepts, mood boards, layouts, and 3D renders that
+                    bring your vision to life.
+                  </p>
+                </div>
+              </div>
+
+              <div class="how-we-work-item wow fadeInUp" data-wow-delay="0.2s">
+                <div class="icon-box">
+                  <img src="images/floor-plan.png" alt="" />
+                </div>
+                <div class="how-we-work-content">
+                  <h3>02. Space Planning & Optimization</h3>
+                  <p>
+                    Smart layouts that enhance flow, function, and aesthetics in
+                    every space.
+                  </p>
+                </div>
+              </div>
+
+              <div class="how-we-work-item wow fadeInUp" data-wow-delay="0.4s">
+                <div class="icon-box">
+                  <img src="images/food.png" alt="" />
+                </div>
+                <div class="how-we-work-content">
+                  <h3>03. Material & Finish Selection</h3>
+                  <p>
+                    Curated materials, textures, and colors to match your style
+                    and elevate your space.
+                  </p>
+                </div>
+              </div>
+
+              <!-- <div class="how-we-work-item wow fadeInUp" data-wow-delay="0.6s">
+                <div class="icon-box">
+                  <img src="images/icon-how-we-work-4.svg" alt="" />
+                </div>
+                <div class="how-we-work-content">
+                  <h3>04. furniture and decor selection</h3>
+                  <p>
+                    With the design plans in this place, we manage and
+                    coordinate all aspects of the projects.
+                  </p>
+                </div>
+              </div>
+                           <div class="how-we-work-item wow fadeInUp" data-wow-delay="0.6s">
+                <div class="icon-box">
+                  <img src="images/icon-how-we-work-4.svg" alt="" />
+                </div>
+                <div class="how-we-work-content">
+                  <h3>04. furniture and decor selection</h3>
+                  <p>
+                    With the design plans in this place, we manage and
+                    coordinate all aspects of the projects.
+                  </p>
+                </div>
+              </div>
+                            <div class="how-we-work-item wow fadeInUp" data-wow-delay="0.6s">
+                <div class="icon-box">
+                  <img src="images/icon-how-we-work-4.svg" alt="" />
+                </div>
+                <div class="how-we-work-content">
+                  <h3>04. furniture and decor selection</h3>
+                  <p>
+                    With the design plans in this place, we manage and
+                    coordinate all aspects of the projects.
+                  </p>
+                </div>
+              </div> -->
+            </div>
+
+            <!-- <div class="how-work-company-slider">
+              <div class="swiper">
+                <div class="swiper-wrapper">
+                 
+                  <div class="swiper-slide">
+                    <div class="company-logo">
+                      <img src="images/company-logo-1.svg" alt="" />
+                    </div>
+                  </div>
+                 
+                  <div class="swiper-slide">
+                    <div class="company-logo">
+                      <img src="images/company-logo-2.svg" alt="" />
+                    </div>
+                  </div>
+                 
+                  <div class="swiper-slide">
+                    <div class="company-logo">
+                      <img src="images/company-logo-3.svg" alt="" />
+                    </div>
+                  </div>
+               
+                  <div class="swiper-slide">
+                    <div class="company-logo">
+                      <img src="images/company-logo-4.svg" alt="" />
+                    </div>
+                  </div>
+               
+                  <div class="swiper-slide">
+                    <div class="company-logo">
+                      <img src="images/company-logo-5.svg" alt="" />
+                    </div>
+                  </div>
+            
+                  <div class="swiper-slide">
+                    <div class="company-logo">
+                      <img src="images/company-logo-1.svg" alt="" />
+                    </div>
+                  </div>
+    
+                </div>
+              </div>
+            </div> -->
+            <br />
+          </div>
+          <div class="col-lg-12">
+            <div class="how-we-work-list" style="padding-top: 0">
+              <div class="how-we-work-item wow fadeInUp">
+                <div class="icon-box">
+                  <img src="images/furniture.png" alt="" />
+                </div>
+                <div class="how-we-work-content">
+                  <h3>04. Custom Furniture & Decor</h3>
+                  <p>
+                    Tailored furniture and decor pieces that reflect your taste
+                    and fit your space.
+                  </p>
+                </div>
+              </div>
+
+              <div class="how-we-work-item wow fadeInUp" data-wow-delay="0.4s">
+                <div class="icon-box">
+                  <img src="images/icon-how-we-work-3.svg" alt="" />
+                </div>
+                <div class="how-we-work-content">
+                  <h3>05. Complete Fit-Out Execution</h3>
+                  <p>
+                    End-to-end interior execution with precision, quality, and
+                    timely delivery.
+                  </p>
+                </div>
+              </div>
+              <div class="how-we-work-item wow fadeInUp" data-wow-delay="0.2s">
+                <div class="icon-box">
+                  <img src="images/key.png" alt="" />
+                </div>
+                <div class="how-we-work-content">
+                  <h3>06. Turnkey Interior Setup (Excl. Civil/MEP)</h3>
+                  <p>
+                    Full-service interior setup from design to
+                    handover—well-managed and detail-driven.
+                  </p>
+                </div>
+              </div>
+
+              <!-- <div class="how-we-work-item wow fadeInUp" data-wow-delay="0.6s">
+                <div class="icon-box">
+                  <img src="images/icon-how-we-work-4.svg" alt="" />
+                </div>
+                <div class="how-we-work-content">
+                  <h3>04. furniture and decor selection</h3>
+                  <p>
+                    With the design plans in this place, we manage and
+                    coordinate all aspects of the projects.
+                  </p>
+                </div>
+              </div>
+                           <div class="how-we-work-item wow fadeInUp" data-wow-delay="0.6s">
+                <div class="icon-box">
+                  <img src="images/icon-how-we-work-4.svg" alt="" />
+                </div>
+                <div class="how-we-work-content">
+                  <h3>04. furniture and decor selection</h3>
+                  <p>
+                    With the design plans in this place, we manage and
+                    coordinate all aspects of the projects.
+                  </p>
+                </div>
+              </div>
+                            <div class="how-we-work-item wow fadeInUp" data-wow-delay="0.6s">
+                <div class="icon-box">
+                  <img src="images/icon-how-we-work-4.svg" alt="" />
+                </div>
+                <div class="how-we-work-content">
+                  <h3>04. furniture and decor selection</h3>
+                  <p>
+                    With the design plans in this place, we manage and
+                    coordinate all aspects of the projects.
+                  </p>
+                </div>
+              </div> -->
+            </div>
+
+            <!-- <div class="how-work-company-slider">
+              <div class="swiper">
+                <div class="swiper-wrapper">
+                 
+                  <div class="swiper-slide">
+                    <div class="company-logo">
+                      <img src="images/company-logo-1.svg" alt="" />
+                    </div>
+                  </div>
+                 
+                  <div class="swiper-slide">
+                    <div class="company-logo">
+                      <img src="images/company-logo-2.svg" alt="" />
+                    </div>
+                  </div>
+                 
+                  <div class="swiper-slide">
+                    <div class="company-logo">
+                      <img src="images/company-logo-3.svg" alt="" />
+                    </div>
+                  </div>
+               
+                  <div class="swiper-slide">
+                    <div class="company-logo">
+                      <img src="images/company-logo-4.svg" alt="" />
+                    </div>
+                  </div>
+               
+                  <div class="swiper-slide">
+                    <div class="company-logo">
+                      <img src="images/company-logo-5.svg" alt="" />
+                    </div>
+                  </div>
+            
+                  <div class="swiper-slide">
+                    <div class="company-logo">
+                      <img src="images/company-logo-1.svg" alt="" />
+                    </div>
+                  </div>
+    
+                </div>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div id="imageGallery" class="image-gallery" onclick="closeGallery(event)">
+      <span class="close-btn" onclick="closeGallery(event)">&times;</span>
+      <div
+        class="gallery-container"
+        id="galleryContainer"
+        onclick="event.stopPropagation()"
+      >
+      
+      </div>
+    </div> -->
+    <!-- Our Project Start -->
+    <div class="our-project" id="projects">
+      <div class="container">
+        <div class="row section-row align-items-center">
+          <div class="col-lg-5">
+            <div class="section-title">
+              <h3>latest project</h3>
+              <h2 class="text-anime-style-2">
+                Creative projects that define<span> our style</span>
+              </h2>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <div class="section-title-content">
+              <p>
+                Our portfolio showcases a diverse range of projects, from
+                beautifully crafted residential spaces to functional and stylish
+                commercial interiors.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Swiper Carousel Start -->
+        <div class="swiper myProjectSwiper">
+          <div class="swiper-wrapper">
+            <!-- Slide 1 -->
+            <div class="swiper-slide">
+              <div class="project-item">
+                <div class="project-image">
+                  <div class="project-featured-image">
+                    <figure>
+                      <img src="images/sample-min.png" alt="urban-retreat-1" />
+                    </figure>
+                  </div>
+                  <div class="project-btn">
+                    <a
+                      href="images/sample-min.png"
+                      class="glightbox"
+                      data-gallery="urban-retreat-1"
+                      data-title="Image 1 of 5"
+                      style="color: white"
+                    >
+                      View
+                    </a>
+                  </div>
+                  <a
+                    href="images/p1/2-min.png"
+                    class="glightbox"
+                    data-gallery="urban-retreat-1"
+                    data-title="Image 2 of 5"
+                    style="display: none"
+                  ></a>
+                  <a
+                    href="images/p1/3-min.png"
+                    class="glightbox"
+                    data-gallery="urban-retreat-1"
+                    data-title="Image 3 of 5"
+                    style="display: none"
+                  ></a>
+                  <a
+                    href="images/p1/4-min.png"
+                    class="glightbox"
+                    data-gallery="urban-retreat-1"
+                    data-title="Image 4 of 5"
+                    style="display: none"
+                  ></a>
+                  <a
+                    href="images/p1/5-min.png"
+                    class="glightbox"
+                    data-gallery="urban-retreat-1"
+                    data-title="Image 5 of 5"
+                    style="display: none"
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="swiper-slide">
+              <div class="project-item">
+                <div class="project-image">
+                  <div class="project-featured-image">
+                    <figure>
+                      <img src="images/p2/1-min.png" alt="urban-retreat-2" />
+                    </figure>
+                  </div>
+                  <div class="project-btn">
+                    <a
+                      href="images/p2/1-min.png"
+                      class="glightbox"
+                      data-gallery="urban-retreat-2"
+                      data-title="Image 1 of 5"
+                      style="color: white"
+                    >
+                      View
+                    </a>
+                  </div>
+                  <a
+                    href="images/p2/2-min.png"
+                    class="glightbox"
+                    data-gallery="urban-retreat-2"
+                    data-title="Image 2 of 5"
+                    style="display: none"
+                  ></a>
+                  <a
+                    href="images/p2/3-min.png"
+                    class="glightbox"
+                    data-gallery="urban-retreat-2"
+                    data-title="Image 3 of 5"
+                    style="display: none"
+                  ></a>
+                  <a
+                    href="images/p2/4-min.png"
+                    class="glightbox"
+                    data-gallery="urban-retreat-2"
+                    data-title="Image 4 of 5"
+                    style="display: none"
+                  ></a>
+                  <a
+                    href="images/p2/5-min.png"
+                    class="glightbox"
+                    data-gallery="urban-retreat-2"
+                    data-title="Image 5 of 5"
+                    style="display: none"
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="swiper-slide">
+              <div class="project-item">
+                <div class="project-image">
+                  <div class="project-featured-image">
+                    <figure>
+                      <img src="images/p3/1-min.png" alt="urban-retreat-3" />
+                    </figure>
+                  </div>
+                  <div class="project-btn">
+                    <a
+                      href="images/p3/1-min.png"
+                      class="glightbox"
+                      data-gallery="urban-retreat-3"
+                      data-title="Image 1 of 5"
+                      style="color: white"
+                    >
+                      View
+                    </a>
+                  </div>
+                  <a
+                    href="images/p3/2-min.png"
+                    class="glightbox"
+                    data-gallery="urban-retreat-3"
+                    data-title="Image 2 of 5"
+                    style="display: none"
+                  ></a>
+                  <a
+                    href="images/p3/3-min.png"
+                    class="glightbox"
+                    data-gallery="urban-retreat-3"
+                    data-title="Image 3 of 5"
+                    style="display: none"
+                  ></a>
+                  <a
+                    href="images/p3/4-min.png"
+                    class="glightbox"
+                    data-gallery="urban-retreat-3"
+                    data-title="Image 4 of 5"
+                    style="display: none"
+                  ></a>
+                  <a
+                    href="images/p3/5-min.png"
+                    class="glightbox"
+                    data-gallery="urban-retreat-3"
+                    data-title="Image 5 of 5"
+                    style="display: none"
+                  ></a>
+                </div>
+              </div>
+            </div>
+
+            <!-- <div class="swiper-slide">
+              <div class="project-item">
+                <div class="project-image">
+                  <div class="project-featured-image">
+                    <figure>
+                      <img src="images/p3/1-min.png" alt="urban-retreat-3" />
+                    </figure>
+                  </div>
+                  <div class="project-btn">
+                    <a
+                      href="images/p3/1-min.png"
+                      class="glightbox"
+                      data-gallery="urban-retreat-3"
+                      data-title="Image 1 of 5"
+                      style="color: white"
+                    >
+                      View
+                    </a>
+                  </div>
+                  <a
+                    href="images/p3/2-min.png"
+                    class="glightbox"
+                    data-gallery="urban-retreat-3"
+                    style="display: none"
+                  ></a>
+                  <a
+                    href="images/p3/3-min.png"
+                    class="glightbox"
+                    data-gallery="urban-retreat-3"
+                    style="display: none"
+                  ></a>
+                  <a
+                    href="images/p3/4-min.png"
+                    class="glightbox"
+                    data-gallery="urban-retreat-3"
+                    style="display: none"
+                  ></a>
+                  <a
+                    href="images/p3/5-min.png"
+                    class="glightbox"
+                    data-gallery="urban-retreat-3"
+                    style="display: none"
+                  ></a>
+                </div>
+              </div>
+            </div> -->
+          </div>
+
+          <!-- Navigation & Pagination -->
+          <!-- <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div> -->
+        </div>
+        <!-- Swiper Carousel End -->
+      </div>
+    </div>
+
+    <!-- Our Project End -->
+    <div class="video-section">
+      <div class="container">
+        <div class="swiper videoSwiper">
+          <div class="swiper-wrapper">
+            <!-- Slide 1 -->
+            <div class="swiper-slide">
+              <iframe
+                width="100%"
+                height="500"
+                src="https://www.youtube.com/embed/y9HtaN_Rsvs"
+                title="YouTube video"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="swiper-slide">
+              <iframe
+                width="100%"
+                height="500"
+                src="https://www.youtube.com/embed/uEYEFedOz24"
+                title="YouTube video"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="swiper-slide">
+              <iframe
+                width="100%"
+                height="500"
+                src="https://www.youtube.com/embed/5_bFbsfj-Sg"
+                title="YouTube video"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+
+          <!-- Optional Controls -->
+          <!-- <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div> -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Our Testimonial Start -->
+    <div class="our-testimonials">
+      <div class="container-fluid">
+        <div class="row no-gutters">
+          <div class="col-lg-6">
+            <!-- Our Testimonial Image Start -->
+            <div class="our-testimonials-image">
+              <figure class="image-anime">
+                <img src="images/testimonial-img.jpg" alt="" />
+              </figure>
+            </div>
+            <!-- Our Testimonial Image End -->
+          </div>
+
+          <div class="col-lg-6">
+            <!-- Our Testimonial Content Start -->
+            <div class="our-testimonial-content">
+              <!-- Section Title Start -->
+              <div class="section-title">
+                <h3 class="wow fadeInUp">client testimonials</h3>
+                <h2 class="text-anime-style-2" data-cursor="-opaque">
+                  Trusted by hundreds of <span>people & companies.</span>
+                </h2>
+              </div>
+              <!-- Section Title End -->
+
+              <!-- Testimonial Slider Start -->
+              <div class="testimonial-slider">
+                <div class="swiper">
+                  <div class="swiper-wrapper" data-cursor-text="Drag">
+                    <!-- Testimonial Slide Start -->
+                    <div class="swiper-slide">
+                      <div class="testimonial-item">
+                        <div class="testimonial-rating">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="testimonial-body">
+                          <div class="testimonial-content">
+                            <p>
+                              Mykea redesigned our apartment beautifully. Smart
+                              layouts, great material choices, and custom
+                              furniture brought it all together. The whole
+                              process was smooth and completely stress-free!
+                            </p>
+                          </div>
+                        </div>
+                        <div class="testimonial-body">
+                          <div class="author-image">
+                            <figure class="image-anime">
+                              <img
+                                src="images/testimonials-images/neha.png"
+                                alt=""
+                              />
+                            </figure>
+                          </div>
+                          <div class="author-content">
+                            <h3>Neha R.</h3>
+                            <p>Palm Jumeirah</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Testimonial Slide End -->
+
+                    <!-- Testimonial Slide Start -->
+                    <div class="swiper-slide">
+                      <div class="testimonial-item">
+                        <div class="testimonial-rating">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="testimonial-content">
+                          <p>
+                            Our office makeover with Mykea was a breeze. They
+                            optimized every inch and delivered a stylish,
+                            functional space right on time. Couldn’t have asked
+                            for more!
+                          </p>
+                        </div>
+                        <div class="testimonial-body">
+                          <div class="author-image">
+                            <figure class="image-anime">
+                              <img
+                                src="images/testimonials-images/khalid.png"
+                                alt=""
+                              />
+                            </figure>
+                          </div>
+                          <div class="author-content">
+                            <h3>Khalid M.</h3>
+                            <p>Business Bay</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Testimonial Slide End -->
+                    <!-- Testimonial Slide Start -->
+                    <div class="swiper-slide">
+                      <div class="testimonial-item">
+                        <div class="testimonial-rating">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="testimonial-content">
+                          <p>
+                            From design to decor, Mykea nailed every detail. We
+                            moved into a stunning, fully set-up home without
+                            lifting a finger. Absolutely loved the experience!
+                          </p>
+                        </div>
+                        <div class="testimonial-body">
+                          <div class="author-image">
+                            <figure class="image-anime">
+                              <img
+                                src="images/testimonials-images/zahra-faisal.png"
+                                alt=""
+                              />
+                            </figure>
+                          </div>
+                          <div class="author-content">
+                            <h3>Zahra & Faisal A.</h3>
+                            <p>Downtown Dubai</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Testimonial Slide End -->
+                    <!-- Testimonial Slide Start -->
+                    <div class="swiper-slide">
+                      <div class="testimonial-item">
+                        <div class="testimonial-rating">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="testimonial-content">
+                          <p>
+                            Mykea made our interiors feel personal, practical,
+                            and premium. Everything was well thought out and
+                            beautifully executed. Highly recommend them!
+                          </p>
+                        </div>
+                        <div class="testimonial-body">
+                          <div class="author-image">
+                            <figure class="image-anime">
+                              <img
+                                src="images/testimonials-images/yasmina.png"
+                                alt=""
+                              />
+                            </figure>
+                          </div>
+                          <div class="author-content">
+                            <h3>Yasmina</h3>
+                            <p>Silicon Oasis</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Testimonial Slide End -->
+                  </div>
+                </div>
+              </div>
+              <!-- Testimonial Slider End -->
+
+              <!-- Testimonial Rating Counter Start -->
+              <div class="testimonial-rating-counter">
+                <div class="rating-counter">
+                  <h2><span class="counter">4.82</span></h2>
+                </div>
+                <div class="testimonial-rating-content">
+                  <div class="testimonial-client-rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <p>2,488 reviews</p>
+                </div>
+              </div>
+              <!-- Testimonial Rating Counter End -->
+            </div>
+            <!-- Our Testimonial Content End -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Our Testimonial End -->
+
+    <!-- Intro Video Section Start -->
+    <!-- <div class="intro-video">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12">
+        
+            <div class="intro-video-box">
+          
+              <div class="intro-video-image">
+                <a
+                  href="https://www.youtube.com/watch?v=Y-x0efG1seA"
+                  class="popup-video"
+                  data-cursor-text="Play"
+                >
+                  <figure class="image-anime">
+                    <img src="images/intro-video-bg.jpg" alt="" />
+                  </figure>
+                </a>
+              </div
+        
+
+           
+              class="video-play-button">
+                <a
+                  href="https://www.youtube.com/watch?v=Y-x0efG1seA"
+                  class="popup-video"
+                  data-cursor-text="Play"
+                  >play</a
+                >
+              </div>
+           
+            </div>
+          
+          </div>
+        </div>
+      </div>
+    </div> 
+ 
+
+    
+    <div class="our-project">
+      <div class="container">
+        <div class="row section-row align-items-center">
+          <div class="col-lg-5">
+         
+              <h3 class="wow fadeInUp">latest project</h3>
+              <h2 class="text-anime-style-2" data-cursor="-opaque">
+                Creative projects that define<span> our style</span>
+              </h2>
+            </div> 
+          
+          </div>
+
+          <div class="col-lg-7">
+             <div class="section-title-content">
+              <p class="wow fadeInUp" data-wow-delay="0.2s">
+                Our portfolio showcases a diverse range of projects, from
+                beautifully crafted residential spaces functional and stylish
+                com
+            </div>
+          
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12">
+            Our Project Nav start 
+            <div class="our-Project-nav wow fadeInUp" data-wow-delay="0.4s">
+              <ul>
+                <li><a href="#" class="active-btn" data-filter="*">all</a></li>
+                <li>
+                  <a href="#" data-filter=".architecture">architecture</a>
+                </li>
+                <li><a href="#" data-filter=".interior">interior</a></li>
+                <li><a href="#" data-filter=".bedroom">bedroom</a></li>
+                <li><a href="#" data-filter=".furniture">furniture</a></li>
+                <li><a href="#" data-filter=".kitchen">kitchen</a></li>
+              </ul>
+            </div>
+           
+          </div> -->
+
+    <!-- <div class="col-lg-12">
+         
+            <div class="row project-item-boxes align-items-center">
+              <div class="col-md-6 project-item-box architecture bedroom">
+              
+                <div class="project-item wow fadeInUp">
+                  <div class="project-image">
+                    <div class="project-featured-image">
+                      <figure class="image-anime">
+                        <img src="images/project-1.jpg" alt="" />
+                      </figure>
+                    </div>
+
+                    <div class="project-btn">
+                      <a href="project-single.html"
+                        ><img src="images/arrow-white.svg" alt=""
+                      /></a>
+                    </div>
+                  </div>
+
+                  <div class="project-content">
+                    <h3>residential spaces</h3>
+                    <h2>
+                      <a href="project-single.html"
+                        >urban retreat: modern design meets comfort</a
+                      >
+                    </h2>
+                  </div>
+                </div>
+              
+              </div>
+
+              <div class="col-md-6 project-item-box interior kitchen">
+              
+                <div class="project-item wow fadeInUp" data-wow-delay="0.2s">
+                  <div class="project-image">
+                    <div class="project-featured-image">
+                      <figure class="image-anime">
+                        <img src="images/project-2.jpg" alt="" />
+                      </figure>
+                    </div>
+
+                    <div class="project-btn">
+                      <a href="project-single.html"
+                        ><img src="images/arrow-white.svg" alt=""
+                      /></a>
+                    </div>
+                  </div>
+
+                  <div class="project-content">
+                    <h3>luxury homes</h3>
+                    <h2>
+                      <a href="project-single.html"
+                        >luxurious loft: industrial chic for living</a
+                      >
+                    </h2>
+                  </div> -->
+    <!-- </div>
+             
+              </div> -->
+
+    <!-- <div class="col-md-6 project-item-box furniture architecture">
+               
+                <div class="project-item wow fadeInUp" data-wow-delay="0.4s">
+                  <div class="project-image">
+                    <div class="project-featured-image">
+                      <figure class="image-anime">
+                        <img src="images/project-3.jpg" alt="" />
+                      </figure>
+                    </div>
+
+                    <div class="project-btn">
+                      <a href="project-single.html"
+                        ><img src="images/arrow-white.svg" alt=""
+                      /></a>
+                    </div>
+                  </div>
+
+                  <div class="project-content">
+                    <h3>outdoor living spaces</h3>
+                    <h2>
+                      <a href="project-single.html"
+                        >coastal vibes: serenity by the sea</a
+                      >
+                    </h2>
+                  </div>
+                </div>
+            
+              </div> -->
+
+    <!-- <div class="col-md-6 project-item-box kitchen bedroom">
+              
+                <div class="project-item wow fadeInUp" data-wow-delay="0.6s">
+                  <div class="project-image">
+                    <div class="project-featured-image">
+                      <figure class="image-anime">
+                        <img src="images/project-4.jpg" alt="" />
+                      </figure>
+                    </div>
+
+                    <div class="project-btn">
+                      <a href="project-single.html"
+                        ><img src="images/arrow-white.svg" alt=""
+                      /></a>
+                    </div>
+                  </div>
+
+                  <div class="project-content">
+                    <h3>modern designs</h3>
+                    <h2>
+                      <a href="project-single.html"
+                        >minimalist haven: simple, clean, inviting spaces</a
+                      >
+                    </h2>
+                  </div>
+                </div>
+              
+              </div> -->
+    <!-- </div> -->
+
+    <!-- </div> -->
+    <!-- </div>
+      </div>
+    </div> -->
+    <!-- Our Project End -->
+
+    <!-- <div class="our-skill">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+        
+            <div class="our-skill-content">
+             
+              <div class="section-title">
+                <h3 class="wow fadeInUp">our skills</h3>
+                <h2 class="text-anime-style-2" data-cursor="-opaque">
+                  Skills that shape your<span> dream home</span>
+                </h2>
+                <p class="wow fadeInUp" data-wow-delay="0.2s">
+                  Our dedicated team of designers works closely with you to
+                  understand your vision and bring it to life with thoughtful
+                  attention to detail.
+                </p>
+              </div>
+           
+              <div class="our-skillbar">
+              
+                <div class="skills-progress-bar">
+               
+                  <div class="skillbar" data-percent="95%">
+                    <div class="skill-data">
+                      <div class="skill-title">space planning and layout</div>
+                      <div class="skill-no">95%</div>
+                    </div>
+                    <div class="skill-progress">
+                      <div class="count-bar"></div>
+                    </div>
+                  </div>
+               
+                </div>
+              
+
+               
+                <div class="skills-progress-bar">
+                 
+                  <div class="skillbar" data-percent="85%">
+                    <div class="skill-data">
+                      <div class="skill-title">
+                        project challenges and solutions
+                      </div>
+                      <div class="skill-no">85%</div>
+                    </div>
+                    <div class="skill-progress">
+                      <div class="count-bar"></div>
+                    </div>
+                  </div>
+             
+                </div>
+               
+                <div class="skills-progress-bar">
+               
+                  <div class="skillbar" data-percent="75%">
+                    <div class="skill-data">
+                      <div class="skill-title">
+                        sustainability and eco-friendly features
+                      </div>
+                      <div class="skill-no">75%</div>
+                    </div>
+                    <div class="skill-progress">
+                      <div class="count-bar"></div>
+                    </div>
+                  </div>
+             
+                </div>
+              
+              </div>
+           
+            </div>
+            
+          </div>
+
+          <div class="col-lg-6">
+           
+            <div class="our-skill-image">
+              <div class="our-skill-img-1">
+                <figure class="image-anime reveal">
+                  <img src="images/our-skill-img-1.jpg" alt="" />
+                </figure>
+              </div>
+
+              <div class="our-skill-img-2">
+                <figure class="image-anime reveal">
+                  <img src="images/our-skill-img-2.jpg" alt="" />
+                </figure>
+              </div>
+
+              <div class="our-skill-img-3">
+                <figure class="image-anime reveal">
+                  <img src="images/our-skill-img-3.jpg" alt="" />
+                </figure>
+              </div>
+            </div>
+          
+          </div>
+        </div>
+      </div>
+    </div> 
+   
+
+  
+    <div class="our-testimonials">
+      <div class="container-fluid">
+        <div class="row no-gutters">
+          <div class="col-lg-6">
+        
+            <div class="our-testimonials-image">
+              <figure class="image-anime">
+                <img src="images/testimonial-img.jpg" alt="" />
+              </figure>
+            </div>
+ 
+          </div>
+
+          <div class="col-lg-6">
+           
+            <div class="our-testimonial-content">
+            
+              <div class="section-title">
+                <h3 class="wow fadeInUp">client testimonials</h3>
+                <h2 class="text-anime-style-2" data-cursor="-opaque">
+                  Trusted by thousand of <span>people & companies.</span>
+                </h2>
+              </div>
+            
+
+         
+              <div class="testimonial-slider">
+                <div class="swiper">
+                  <div class="swiper-wrapper" data-cursor-text="Drag">
+                 
+                    <div class="swiper-slide">
+                      <div class="testimonial-item">
+                        <div class="testimonial-rating">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="testimonial-body">
+                          <div class="testimonial-content">
+                            <p>
+                              I couldn't be happier with the transformation of
+                              my home! From our very first consultation, the
+                              team at took the time to understand my vision and
+                              preferences.
+                            </p>
+                          </div>
+                        </div>
+                        <div class="testimonial-body">
+                          <div class="author-image">
+                            <figure class="image-anime">
+                              <img src="images/author-1.jpg" alt="" />
+                            </figure>
+                          </div>
+                          <div class="author-content">
+                            <h3>arlene mcCoy</h3>
+                            <p>co. founder</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                 
+
+                  
+                    <div class="swiper-slide">
+                      <div class="testimonial-item">
+                        <div class="testimonial-rating">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="testimonial-content">
+                          <p>
+                            I couldn't be happier with the transformation of my
+                            home! From our very first consultation, the team at
+                            took the time to understand my vision and
+                            preferences.
+                          </p>
+                        </div>
+                        <div class="testimonial-body">
+                          <div class="author-image">
+                            <figure class="image-anime">
+                              <img src="images/author-1.jpg" alt="" />
+                            </figure>
+                          </div>
+                          <div class="author-content">
+                            <h3>arlene mcCoy</h3>
+                            <p>co founder</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                
+                  </div>
+                </div>
+              </div>
+          
+              <div class="testimonial-rating-counter">
+                <div class="rating-counter">
+                  <h2><span class="counter">4.82</span></h2>
+                </div>
+                <div class="testimonial-rating-content">
+                  <div class="testimonial-client-rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <p>2,488 reviews</p>
+                </div>
+              </div>
+             
+            </div>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+     Our Testimonial End -->
+
+    <!-- Our Blog Section Start -->
+    <!-- <div class="our-blog">
+      <div class="container">
+        <div class="row section-row align-items-center">
+          <div class="col-lg-6">
+           
+            <div class="section-title">
+              <h3 class="wow fadeInUp">latest news</h3>
+              <h2 class="text-anime-style-2" data-cursor="-opaque">
+                <span>Your guide to</span> inspired interiors
+              </h2>
+            </div>
+          
+          </div>
+
+          <div class="col-lg-6">
+          
+            <div class="section-title-content">
+              <p class="wow fadeInUp" data-wow-delay="0.2s">
+                Your journey to inspired interiors begins here. Our blog offers
+                a wealth of resources, including design tips, trend analyses.
+              </p>
+            </div>
+      
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+          
+            <div class="post-item wow fadeInUp">
+        
+              <div class="post-featured-image">
+                <figure>
+                  <a
+                    href="blog-single.html"
+                    class="image-anime"
+                    data-cursor-text="View"
+                  >
+                    <img src="images/post-1.jpg" alt="" />
+                  </a>
+                </figure>
+              </div>
+          
+
+              <div class="post-item-body">
+        
+                <div class="post-item-content">
+                  <h3>
+                    <a href="blog-single.html"
+                      >How Does One Go About a Buying Furniture?</a
+                    >
+                  </h3>
+                </div>
+            
+                <div class="post-item-btn">
+                  <a href="blog-single.html" class="post-btn">read more</a>
+                </div>
+               
+              </div>
+           
+            </div>
+           
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+      
+            <div class="post-item wow fadeInUp" data-wow-delay="0.2s">
+              
+              <div class="post-featured-image">
+                <figure>
+                  <a
+                    href="blog-single.html"
+                    class="image-anime"
+                    data-cursor-text="View"
+                  >
+                    <img src="images/post-2.jpg" alt="" />
+                  </a>
+                </figure>
+              </div>
+        
+
+       
+              <div class="post-item-body">
+               
+                <div class="post-item-content">
+                  <h3>
+                    <a href="blog-single.html"
+                      >Innovative Décor Ideas Shaping Homes Today</a
+                    >
+                  </h3>
+                </div>
+    
+
+                <div class="post-item-btn">
+                  <a href="blog-single.html" class="post-btn">read more</a>
+                </div>
+             
+              </div>
+          
+            </div>
+           
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+        
+            <div class="post-item wow fadeInUp" data-wow-delay="0.4s">
+              
+              <div class="post-featured-image">
+                <figure>
+                  <a
+                    href="blog-single.html"
+                    class="image-anime"
+                    data-cursor-text="View"
+                  >
+                    <img src="images/post-3.jpg" alt="" />
+                  </a>
+                </figure>
+              </div>
+            
+
+              <div class="post-item-body">
+              
+                <div class="post-item-content">
+                  <h3>
+                    <a href="blog-single.html"
+                      >Design Industry Updates You Should Know About</a
+                    >
+                  </h3>
+                </div>
+             
+                <div class="post-item-btn">
+                  <a href="blog-single.html" class="post-btn">read more</a>
+                </div>
+           
+              </div>
+           
+            </div>
+        
+          </div>
+
+          <div class="col-lg-12">
+           
+            <div class="our-blog-footer wow fadeInUp" data-wow-delay="0.6s">
+              <a href="blog.html" class="btn-default">See All Blogs</a>
+            </div>
+     
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <div id="popupOverlay" class="popup-overlay" onclick="closePopup()"></div>
+
+    <div id="popup" class="popup">
+      <span class="popup-close" onclick="closePopup()">&times;</span>
+      <h2 id="popupTitle"></h2>
+      <p id="popupText" style="margin-top: revert"></p>
+    </div>
+    <section class="cta-section">
+      <div class="cta-container">
+        <h2>Get Instant Pricing – For Free!</h2>
+        <p>Enter your details and get instant pricing, completely free.</p>
+
+        <form id="ctaForm" class="sub-form">
+          <div class="input-row">
+            <!-- Name -->
+            <div class="input-group">
+              <label for="subname">Your Name</label>
+              <input
+                type="text"
+                id="subname"
+                placeholder="Enter your name"
+                required
+              />
+            </div>
+
+            <!-- Email -->
+            <div class="input-group">
+              <label for="subemail">Email ID</label>
+              <input
+                type="email"
+                id="subemail"
+                placeholder="Enter your email"
+                required
+              />
+            </div>
+
+            <!-- Phone -->
+            <div class="input-group phone-group" style="width: 100%">
+              <label for="subphone">Phone</label>
+              <div class="phone-input-wrapper">
+                <select id="countryCode2" required>
+                  <option value="+91">🇮🇳 +91</option>
+                  <option value="+1">🇺🇸 +1</option>
+                  <option value="+44">🇬🇧 +44</option>
+                  <option value="+971" selected>🇦🇪 +971</option>
+                </select>
+                <input
+                  type="tel"
+                  id="subphone"
+                  placeholder="Enter phone number"
+                  required
+                />
+              </div>
+            </div>
+          </div>
+
+          <button
+            type="submit"
+            class="cta-button"
+            id="subformBtn"
+            target="_blank"
+          >
+            <span class="btn-text">Get Free Quote &nbsp; ➤</span>
+            <span class="loader-2 hidden"></span>
+          </button>
+        </form>
+      </div>
+    </section>
+    <!-- Footer Start -->
+    <footer class="main-footer" id="footer">
+      <div class="container">
+        <div class="row" style="justify-content: center">
+          <div class="col-lg-12">
+            <!-- Footer Header Start -->
+            <div class="footer-header">
+              <div class="row align-items-center">
+                <div class="col-md-6">
+                  <!-- Footer Logo Start -->
+                  <div class="footer-logo">
+                    <img
+                      src="images/mykea-logo-1.png"
+                      alt=""
+                      style="max-width: 150px"
+                    />
+                  </div>
+                  <!-- Footer Logo End -->
+                </div>
+
+                <div class="col-md-6">
+                  <!-- Footer Social Link Start -->
+                  <div class="footer-social-links">
+                    <div class="footer-social-link-title">
+                      <h3>follow our socials</h3>
+                    </div>
+                    <ul>
+                      <li>
+                        <a
+                          href="https://www.instagram.com/mykea.studio/ "
+                          target="_blank"
+                          ><i class="fa-brands fa-instagram"></i
+                        ></a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://www.facebook.com/mykea.studio"
+                          target="_blank"
+                          ><i class="fa-brands fa-facebook-f"></i
+                        ></a>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- Footer Social Link End -->
+                </div>
+              </div>
+            </div>
+            <!-- Footer Header End -->
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <!-- Footer Links Start -->
+            <div class="footer-links">
+              <h3>SiteMap</h3>
+              <ul>
+                <!-- <li><a href="">Home</a></li> -->
+                <li><a href="#about">About</a></li>
+                <li><a href="#our_services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#footer">Contact</a></li>
+              </ul>
+            </div>
+            <!-- Footer Links End -->
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <!-- Footer Links Start -->
+            <div class="footer-links">
+              <h3>Legal</h3>
+              <ul>
+                <li onclick="openPopup('privacy')">Privacy Policy</li>
+                <li onclick="openPopup('terms')">Terms & Conditions</li>
+                <li onclick="openPopup('support')">Support</li>
+                <!-- <li>390007</li> -->
+                <!-- <li><a href="project-single.html">renovation and restoration design</a></li> -->
+              </ul>
+            </div>
+            <!-- Footer Links End -->
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <!-- Footer Links Start -->
+            <div class="footer-links">
+              <h3>Service Locations</h3>
+              <ul>
+                <li>United Arab Emirates</li>
+                <li>
+                  <a
+                    href="mailto:mykea.studio@gmail.com "
+                    target="_blank"
+                    style="color: rgb(13 110 253); text-transform: lowercase"
+                    >mykea.studio@gmail.com
+                  </a>
+                </li>
+
+                <!-- <li>390007</li> -->
+                <!-- <li><a href="project-single.html">renovation and restoration design</a></li> -->
+              </ul>
+            </div>
+            <!-- Footer Links End -->
+          </div>
+
+          <!-- <div class="col-lg-3 col-md-6">
+      
+                    <div class="footer-latest-news footer-links">
+                        <h3>get the latest trending news</h3>
+                        
+                        <div class="footer-newsletter-form">
+                            <p>Your Dream Space Starts Here Get Exclusive Design Straight Your Inbox!</p>
+
+                            <form id="newslettersForm" action="#" method="POST">
+                                <div class="form-group">
+                                    <input type="email" name="email" class="form-control"  id="mail" placeholder="Enter your email" required>
+                                    <button type="submit"><i class="fa-solid fa-arrow-right-long"></i> </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+             
+                </div> -->
+        </div>
+
+        <!-- Footer Copyright Section Start -->
+        <div class="footer-copyright">
+          <div class="row">
+            <div class="col-md-12">
+              <!-- Footer Copyright Start -->
+              <div class="footer-copyright-text">
+                <p>
+                  © 2025 | MYKEA. Developed by
+                  <a href="https://diwizon.com/" target="_blank">Diwizon</a>
+                </p>
+              </div>
+              <!-- Footer Copyright End -->
+            </div>
+          </div>
+        </div>
+        <!-- Footer Copyright Section End -->
+      </div>
+    </footer>
+
+    <!-- Footer End -->
+
+    <!-- Jquery Library File -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <!-- Bootstrap js file -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Validator js file -->
+    <script src="js/validator.min.js"></script>
+    <!-- SlickNav js file -->
+    <script src="js/jquery.slicknav.js"></script>
+    <!-- Swiper js file -->
+    <script src="js/swiper-bundle.min.js"></script>
+    <!-- Counter js file -->
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <!-- Isotop js file -->
+    <script src="js/isotope.min.js"></script>
+    <!-- Magnific js file -->
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <!-- SmoothScroll -->
+    <script src="js/SmoothScroll.js"></script>
+    <!-- Parallax js -->
+    <script src="js/parallaxie.js"></script>
+    <!-- MagicCursor js file -->
+    <script src="js/gsap.min.js"></script>
+    <script src="js/magiccursor.js"></script>
+    <!-- Text Effect js file -->
+    <script src="js/SplitText.js"></script>
+    <script src="js/ScrollTrigger.min.js"></script>
+    <!-- YTPlayer js File -->
+    <script src="js/jquery.mb.YTPlayer.min.js"></script>
+    <!-- Wow js file -->
+    <script src="js/wow.min.js"></script>
+    <!-- Main Custom js file -->
+    <script src="js/function.js"></script>
+
+    <script src="js/form.js"></script>
+    <script src="js/subform.js"></script>
+    <script src="js/freequoteform.js"></script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const openBtn = document.getElementById("openSidebar");
+        const sidebar = document.getElementById("sidebar");
+        const overlay = document.getElementById("overlay");
+
+        openBtn.addEventListener("click", () => {
+          const isOpen = sidebar.classList.contains("active");
+
+          if (isOpen) {
+            sidebar.classList.remove("active");
+            overlay.classList.remove("active");
+            openBtn.innerHTML = "&#9776;";
+          } else {
+            sidebar.classList.add("active");
+            overlay.classList.add("active");
+            openBtn.innerHTML = "&times;";
+          }
+        });
+
+        overlay.addEventListener("click", () => {
+          sidebar.classList.remove("active");
+          overlay.classList.remove("active");
+          openBtn.innerHTML = "&#9776;";
+        });
+      });
+    </script>
+    <script>
+      window.addEventListener("scroll", function () {
+        const header = document.getElementById("mainHeader");
+        if (window.scrollY > 0) {
+          header.classList.add("header-bg");
+        } else {
+          header.classList.remove("header-bg");
+        }
+      });
+    </script>
+
+    <!-- <script>
+  document.addEventListener('DOMContentLoaded', function () {
+    // Wait 3 seconds
+    setTimeout(function () {
+      // Show the popup
+      const popupForm2 = document.getElementById('popupForm2');
+      if (popupForm2) {
+        popupForm2.classList.remove('hidden');
+        popupForm2.setAttribute('aria-hidden', 'false');
+      }
+    }, 3000); // 3000 milliseconds = 3 seconds
+
+    // Close popup when user clicks the close button
+    const closeBtn2 = document.getElementById('closeBtn2');
+    if (closeBtn2) {
+      closeBtn2.addEventListener('click', function () {
+        const popupForm2 = document.getElementById('popupForm2');
+        if (popupForm2) {
+          popupForm2.classList.add('hidden');
+          popupForm2.setAttribute('aria-hidden', 'true');
+        }
+
+      });
+    }
+    
+  });
+</script> -->
+    <!-- Before </body> -->
+
+    <!-- Glightbox JS -->
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.19/js/intlTelInput.min.js"></script>
+
+    <script>
+      const lightbox = GLightbox({
+        selector: ".glightbox",
+      });
+    </script>
+    <script>
+      const popupContent = {
+        privacy: {
+          title: "<center>Privacy Policy</center>",
+          text: "<center>We value your privacy and never share your personal information without consent.</center>",
+        },
+        terms: {
+          title: "<center>Terms & Conditions</center>",
+          text: "<center>By using this site, you agree to our terms of service and responsible usage.</center>",
+        },
+        support: {
+          title: "<center>Support</center>",
+          text: '<center>Need help? Reach us anytime at <a href="mailto:mykea.studio@gmail.com">mykea.studio@gmail.com</a><br> — we’re here for you!</center>',
+        },
+      };
+
+      function openPopup(type) {
+        const content = popupContent[type];
+        document.getElementById("popupTitle").innerHTML = content.title;
+        document.getElementById("popupText").innerHTML = content.text;
+        document.getElementById("popup").classList.add("active");
+        document.getElementById("popupOverlay").classList.add("active");
+      }
+
+      function closePopup() {
+        document.getElementById("popup").classList.remove("active");
+        document.getElementById("popupOverlay").classList.remove("active");
+      }
+    </script>
+    <script>
+      const videoSwiper = new Swiper(".videoSwiper", {
+        loop: true,
+        spaceBetween: 30,
+        slidesPerView: 1,
+        autoplay: {
+          delay: 4000,
+          disableOnInteraction: false,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          768: {
+            slidesPerView: 2,
+          },
+          992: {
+            slidesPerView: 3,
+          },
+        },
+      });
+    </script>
+
+    <!-- Optional Styling -->
+    <style>
+      .video-section {
+        padding: 50px 0;
+      }
+
+      .swiper-slide iframe {
+        border-radius: 10px;
+        width: 100%;
+        display: block;
+      }
+
+      .swiper-button-next,
+      .swiper-button-prev {
+        color: #000;
+      }
+    </style>
+    <script>
+      const swiper = new Swiper(".myProjectSwiper", {
+        loop: true,
+        slidesPerView: 1,
+        spaceBetween: 30,
+        autoplay: {
+          delay: 3000, // 3 seconds between slides
+          disableOnInteraction: false, // keeps autoplay running after manual swipe
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+          768: {
+            slidesPerView: 2,
+          },
+          992: {
+            slidesPerView: 3,
+          },
+        },
+      });
+    </script>
+  </body>
+
+  <!-- Mirrored from html.awaikenthemes.com/inspaire/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 27 Mar 2025 02:51:22 GMT -->
+</html>

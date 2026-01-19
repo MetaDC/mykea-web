@@ -260,7 +260,8 @@ window.addEventListener("load", () => {
 
     // Prepare data for Email API
     const emailData = {
-      emails: ["mykea.studio@gmail.com"],
+      emails: ["mykea.studio@gmail.com", "info@mykea.studio@gmail.com"],
+      // cc: ["info@mykea.studio@gmail.com"],
       subject: "New Free Consultation Request",
       message: `
         <h3>New Free Consultation Request</h3>

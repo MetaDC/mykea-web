@@ -248,7 +248,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Prepare data for Email API
     const emailData = {
-      emails: ["mykea.studio@gmail.com"],
+      emails: ["mykea.studio@gmail.com", "info@mykea.studio@gmail.com"],
       subject: "New Portfolio Download Request",
       message: `
         <h3>New Portfolio Download</h3>
